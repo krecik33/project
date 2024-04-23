@@ -134,7 +134,7 @@ button {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
-  background-image: url("assets/icon.png");
+  background-image: url("/icon.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }

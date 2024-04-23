@@ -1,5 +1,4 @@
-export const ProductsApiUrl =
-  "https://api-eko-bazarek.azurewebsites.net/api/products/categories";
+export const ProductsApiUrl = "api/products";
 
 export const getProducts = async () => {
   const res = await fetch(ProductsApiUrl);
