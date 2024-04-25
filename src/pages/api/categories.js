@@ -1,4 +1,4 @@
-const getCategories = [
+export const getCategories =()=> [
   {
     id: "DAIRY",
     name: "Nabiał",
@@ -41,5 +41,5 @@ const getCategories = [
   },
 ];
 export default function handler(req, res) {
-  res.status(200).json(getCategories);
+  res.status(200).json(getCategories());
 }

@@ -1,4 +1,4 @@
-const data = [
+export const productsData = [
   {
     id: "APPLE",
     name: "Jabłka",
@@ -288,13 +288,13 @@ const data = [
   },
 ];
 export default function handler(req, res) {
-  const { type } = req.query; // This extracts the 'type' parameter from the URL query
-  const itemsByType = data.filter(
-    (item) => item.type.toLowerCase() === type.toLowerCase()
+  const { id } = req.query; // This extracts the 'type' parameter from the URL query
+  const itemsById = productsData.filter(
+    (item) => item.id.toLowerCase() === id.toLowerCase()
   );
 
-  if (itemsByType.length > 0) {
-    res.status(200).json(itemsByType); // Send all matching items as JSON
+  if (itemsById.length > 0) {
+    res.status(200).json(itemsById); // Send all matching items as JSON
   } else {
     res.status(404).json({ message: "No items found for this type" }); // Send error if no matches
   }

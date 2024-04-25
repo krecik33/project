@@ -1,10 +1,11 @@
-const getProducts = [
+export const getProducts =()=> [
   {
     id: "APPLE",
     name: "Jabłka",
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-apple-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "BEEF",
@@ -12,6 +13,7 @@ const getProducts = [
     type: "MEAT",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-beef-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "BEET",
@@ -19,6 +21,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-beet-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "BLUEBEERY",
@@ -26,6 +29,7 @@ const getProducts = [
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-blueberry-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "BREAD",
@@ -33,6 +37,7 @@ const getProducts = [
     type: "OTHER",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-bread-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "BROCCOLI",
@@ -40,6 +45,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-broccoli-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "CABBAGE",
@@ -47,6 +53,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-cabbage-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "CARROT",
@@ -54,6 +61,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-carrot-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "CHEESE",
@@ -61,6 +69,7 @@ const getProducts = [
     type: "DAIRY",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-cheese-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "CHERRY",
@@ -68,6 +77,7 @@ const getProducts = [
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-cherry-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "CHILI_PEPPER",
@@ -75,6 +85,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-chili-pepper-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "CORN",
@@ -82,6 +93,7 @@ const getProducts = [
     type: "CEREALS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-corn-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "CUCUMBER",
@@ -89,6 +101,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-cucumber-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "EDAMAME_BEANS",
@@ -96,6 +109,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-edamame-beans-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "EGGPLANT",
@@ -103,6 +117,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-eggplant-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "EGG",
@@ -110,6 +125,7 @@ const getProducts = [
     type: "OTHER",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-eggs-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "FISH",
@@ -117,6 +133,7 @@ const getProducts = [
     type: "FISHES",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-fish-food-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "FLOUR",
@@ -124,6 +141,7 @@ const getProducts = [
     type: "OTHER",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-flour-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "GARLIC",
@@ -131,6 +149,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-garlic-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "GRAPES",
@@ -138,6 +157,7 @@ const getProducts = [
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-grapes-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "HONEY",
@@ -145,6 +165,7 @@ const getProducts = [
     type: "HONEY",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-honey-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "LEEK",
@@ -152,6 +173,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-leek-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "MILK",
@@ -159,6 +181,7 @@ const getProducts = [
     type: "DAIRY",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-milk-bottle-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "PAPRIKA",
@@ -166,6 +189,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-paprika-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "PEAR",
@@ -173,6 +197,7 @@ const getProducts = [
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-pear-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "PLUM",
@@ -180,6 +205,7 @@ const getProducts = [
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-plum-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "PORK",
@@ -187,6 +213,7 @@ const getProducts = [
     type: "MEAT",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-pork-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "POTATO",
@@ -194,6 +221,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-potato-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "RADISH",
@@ -201,6 +229,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-radish-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "RASPBERRY",
@@ -208,6 +237,7 @@ const getProducts = [
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-raspberry-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "SAUSAGES",
@@ -215,6 +245,7 @@ const getProducts = [
     type: "COOKED_MEATS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-sausages-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "SPINACH",
@@ -222,6 +253,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-spinach-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "STEAK",
@@ -229,6 +261,7 @@ const getProducts = [
     type: "MEAT",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-steak-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "STRAWBERRY",
@@ -236,6 +269,7 @@ const getProducts = [
     type: "FRUITS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-strawberry-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "WHITE_BEANS",
@@ -243,6 +277,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-white-beans-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "YOGURT",
@@ -250,6 +285,7 @@ const getProducts = [
     type: "DAIRY",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-yogurt-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "ZUCCHINI",
@@ -257,6 +293,7 @@ const getProducts = [
     type: "VEGETABLE",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-zucchini-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "OATS",
@@ -264,6 +301,7 @@ const getProducts = [
     type: "CEREALS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-oats-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "WHEAT",
@@ -271,6 +309,7 @@ const getProducts = [
     type: "CEREALS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-wheat-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "RYE",
@@ -278,6 +317,7 @@ const getProducts = [
     type: "CEREALS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-flour-of-rye-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
   {
     id: "BARLEY",
@@ -285,9 +325,10 @@ const getProducts = [
     type: "CEREALS",
     iconUrl:
       "https://api-eko-bazarek.azurewebsites.net/images/categories/icons8-flour-of-rye-64.png",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis elementum mauris vel laoreet. Morbi tempus eros malesuada commodo pharetra. In felis lorem, vestibulum id molestie eget, aliquet in tortor. Duis sit amet nulla dolor. Curabitur iaculis hendrerit facilisis. Vivamus non turpis quis nibh lobortis maximus. Aenean mattis arcu neque, sit amet lobortis velit euismod nec. Nam porttitor, nulla ut tristique ornare, mauris sem pulvinar leo, vel mollis sapien odio at lacus. Aenean condimentum lacus eget ipsum tincidunt, at vehicula dolor auctor. Vivamus quis mollis dui. Integer justo risus, blandit at orci et, tempus facilisis leo.",
   },
 ];
 
 export default function handler(req, res) {
-  res.status(200).json(getProducts);
+  res.status(200).json(getProducts());
 }
